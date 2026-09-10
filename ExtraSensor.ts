@@ -3,7 +3,7 @@
  * ADS1115 External Sensor
  */
 
-//% color="#2f74ff" icon="\uf0e7" block="외부센서측정" weight=10
+//% color="#2f74ff" icon="\uf0e7" block="외부센서측정" weight=60
 namespace ExtraSensor {
 
     let adsAddress = 0x48
@@ -98,7 +98,7 @@ namespace ExtraSensor {
     /**
      * 외부센서 전압측정
      */
-    //% block="외부센서 $channel 전압측정 (5V = 1024)"
+    //% block="외부센서 $channel 전압측정 (5V = 1023)"
     //% weight=90
     export function voltage(
         channel: SensorChannel
